@@ -30,7 +30,7 @@ def nmap_perf():
     time_begin = time.time()
     global filename
 
-    stdout_filename = 'out_'+filename
+    stdout_filename = filename[:-4] + 'out.csv'
 
     with open(stdout_filename, 'w') as file:
         scanproc = subprocess.Popen(['nmap','-n','-PS'+str_common_ports, target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -64,7 +64,7 @@ ROUTER_IP = "10.10.10.1"
 COMMUNITY = "public"
 #IF_INDEX = 4  # Change this to the correct interface index
 
-# OIDs for interface traffic (bytes in and out)
+# OIDs for interface traffic (bytes out)
 OID_OUT_FE00 = f"1.3.6.1.2.1.2.2.1.16.1"
 OID_OUT_FE20 = f"1.3.6.1.2.1.2.2.1.16.3"
 OID_OUT_FE30 = f"1.3.6.1.2.1.2.2.1.16.4"
@@ -192,6 +192,8 @@ def collect_th(start_time, duration=20):
     out_rates_FE20.append(out_rate_FE20)
     out_rates_FE30.append(out_rate_FE30)
     out_total.append(out_rate_FE00+out_rate_FE20+out_rate_FE30)
+
+    
 
     threading.Timer(2, collect_th, [start_time, duration]).start()
 
