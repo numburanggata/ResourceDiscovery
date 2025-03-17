@@ -8,13 +8,13 @@ import csv
 import threading
 from datetime import datetime
 
-with open('15common_ports.txt', 'r') as file:
+with open('20common_ports.txt', 'r') as file:
     # Read the lines of the file and store them as elements in a list
     common_ports = file.readlines()
 str_common_ports = [ports.strip() for ports in common_ports]
 
-str_common_ports = ', '.join(str_common_ports)
-target = '192.168.3.1'
+str_common_ports = ','.join(str_common_ports)
+target = '192.168.0.0/21'
 
 def masscan_perf():
 
@@ -33,8 +33,14 @@ def nmap_perf():
     stdout_filename = filename[:-4] + 'out.csv'
 
     with open(stdout_filename, 'w') as file:
-        scanproc = subprocess.Popen(['nmap','-n','-PS'+str_common_ports, target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        for output in scanproc.stdout:
+        #scanproc = subprocess.Popen(['sudo', 'masscan','--rate=5000','-p' + str_common_ports, target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #scanproc = subprocess.Popen(['nmap','-n','-PS'+str_common_ports, target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #scanproc = subprocess.Popen(['nmap','-n', target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #scanproc = subprocess.Popen(['sudo','zmap','-G','cc:01:22:f8:00:10','-p',str_common_ports,'-q', target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #print(str_common_ports)
+        scanproc = subprocess.Popen(['rustscan','-p',str_common_ports,'--ulimit','5000','--accessible','-a', target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #for output in scanproc.stderr:
+        for output in scanproc.stdout: 
             if output:
                 time_now = time.time()
                 time_elapsed = time_now - time_begin
@@ -158,7 +164,7 @@ def update_graph(frame):
     ax.legend()
     ax.grid(True)
 
-def collect_th(start_time, duration=20):
+def collect_th(start_time, duration):
     if time.time() - start_time >= duration:
         print("SNMP collection finished. Saving to CSV...")
         write_throughput_to_csv(out_rates_FE00, out_rates_FE20, out_rates_FE30, out_total)
@@ -193,8 +199,9 @@ def collect_th(start_time, duration=20):
     out_rates_FE30.append(out_rate_FE30)
     out_total.append(out_rate_FE00+out_rate_FE20+out_rate_FE30)
 
-    
 
+
+    
     threading.Timer(2, collect_th, [start_time, duration]).start()
 
 def plot():	
@@ -207,9 +214,12 @@ def plot():
 
     
 if __name__ == "__main__":
-    for _ in range(5):
+    for _ in range(20):
+        testname = 'rustscan-basic'
+        durat = 150
+
         date_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        filename = f"{date_str}_nmap_pingsyn-th.csv"                                                           ##  NAME TOOLS HERE
+        filename = f"{date_str}_{testname}-th.csv"                                                           ##  NAME TOOLS HERE
         processes = []
 
         # Set up the Matplotlib figure
@@ -217,16 +227,21 @@ if __name__ == "__main__":
 
         start_time = time.time()
 
-        p = multiprocessing.Process(target=collect_th, args=(start_time, 12))
+        prev_out_FE00, prev_out_FE20, prev_out_FE30 = 0, 0, 0
+
+        p = multiprocessing.Process(target=collect_th, args=(start_time, durat))
         p.start()
         processes.append(p)
 
-        time.sleep(5)
+        time.sleep(10)
 
         #scan = multiprocessing.Process(target=masscan_perf, args=())
         scan = multiprocessing.Process(target=nmap_perf, args=())
         scan.start()
         processes.append(scan)
+
         
         for work in processes:
         	work.join()
+
+        time.sleep(10)

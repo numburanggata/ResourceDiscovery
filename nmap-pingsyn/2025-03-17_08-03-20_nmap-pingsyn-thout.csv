@@ -1,0 +1,111 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-17 08:03 EDT 0.05s
+Nmap scan report for 192.168.3.1 57.89s
+Host is up (0.016s latency). 57.89s
+All 1000 scanned ports on 192.168.3.1 are in ignored states. 57.89s
+Not shown: 1000 closed tcp ports (conn-refused) 57.89s
+ 57.89s
+Nmap scan report for 192.168.3.36 57.89s
+Host is up (0.054s latency). 57.89s
+Not shown: 999 filtered tcp ports (no-response) 57.89s
+PORT    STATE SERVICE 57.89s
+445/tcp open  microsoft-ds 57.89s
+ 57.89s
+Nmap scan report for 192.168.3.200 57.89s
+Host is up (0.035s latency). 57.89s
+Not shown: 999 closed tcp ports (conn-refused) 57.89s
+PORT   STATE SERVICE 57.89s
+23/tcp open  telnet 57.89s
+ 57.89s
+Nmap scan report for 192.168.3.211 57.89s
+Host is up (0.062s latency). 57.89s
+All 1000 scanned ports on 192.168.3.211 are in ignored states. 57.89s
+Not shown: 1000 closed tcp ports (conn-refused) 57.89s
+ 57.89s
+Nmap scan report for 192.168.3.213 57.89s
+Host is up (0.051s latency). 57.89s
+Not shown: 991 closed tcp ports (conn-refused) 57.89s
+PORT      STATE SERVICE 57.89s
+135/tcp   open  msrpc 57.89s
+139/tcp   open  netbios-ssn 57.89s
+445/tcp   open  microsoft-ds 57.89s
+49152/tcp open  unknown 57.89s
+49153/tcp open  unknown 57.89s
+49154/tcp open  unknown 57.89s
+49155/tcp open  unknown 57.89s
+49156/tcp open  unknown 57.89s
+49157/tcp open  unknown 57.89s
+ 57.89s
+Nmap scan report for 192.168.5.1 57.89s
+Host is up (0.013s latency). 57.89s
+All 1000 scanned ports on 192.168.5.1 are in ignored states. 57.89s
+Not shown: 1000 closed tcp ports (conn-refused) 57.89s
+ 57.89s
+Nmap scan report for 192.168.5.2 57.89s
+Host is up (0.040s latency). 57.89s
+Not shown: 999 closed tcp ports (conn-refused) 57.89s
+PORT   STATE SERVICE 57.89s
+21/tcp open  ftp 57.89s
+ 57.89s
+Nmap scan report for 192.168.5.3 57.89s
+Host is up (0.050s latency). 57.89s
+Not shown: 999 filtered tcp ports (no-response) 57.89s
+PORT    STATE SERVICE 57.89s
+445/tcp open  microsoft-ds 57.89s
+ 57.89s
+Nmap scan report for 192.168.5.4 57.89s
+Host is up (0.067s latency). 57.89s
+All 1000 scanned ports on 192.168.5.4 are in ignored states. 57.89s
+Not shown: 1000 closed tcp ports (conn-refused) 57.89s
+ 57.89s
+Nmap scan report for 192.168.5.5 57.89s
+Host is up (0.066s latency). 57.89s
+Not shown: 991 closed tcp ports (conn-refused) 57.89s
+PORT      STATE SERVICE 57.89s
+135/tcp   open  msrpc 57.89s
+139/tcp   open  netbios-ssn 57.89s
+445/tcp   open  microsoft-ds 57.89s
+49152/tcp open  unknown 57.89s
+49153/tcp open  unknown 57.89s
+49154/tcp open  unknown 57.89s
+49155/tcp open  unknown 57.89s
+49156/tcp open  unknown 57.89s
+49157/tcp open  unknown 57.89s
+ 57.89s
+Nmap scan report for 192.168.7.1 57.89s
+Host is up (0.013s latency). 57.89s
+All 1000 scanned ports on 192.168.7.1 are in ignored states. 57.89s
+Not shown: 1000 closed tcp ports (conn-refused) 57.89s
+ 57.89s
+Nmap scan report for 192.168.7.82 57.89s
+Host is up (0.049s latency). 57.89s
+All 1000 scanned ports on 192.168.7.82 are in ignored states. 57.89s
+Not shown: 1000 closed tcp ports (conn-refused) 57.89s
+ 57.89s
+Nmap scan report for 192.168.7.121 57.89s
+Host is up (0.052s latency). 57.89s
+Not shown: 991 closed tcp ports (conn-refused) 57.89s
+PORT      STATE SERVICE 57.89s
+135/tcp   open  msrpc 57.89s
+139/tcp   open  netbios-ssn 57.89s
+445/tcp   open  microsoft-ds 57.89s
+49152/tcp open  unknown 57.89s
+49153/tcp open  unknown 57.89s
+49154/tcp open  unknown 57.89s
+49155/tcp open  unknown 57.89s
+49156/tcp open  unknown 57.89s
+49157/tcp open  unknown 57.89s
+ 57.89s
+Nmap scan report for 192.168.7.210 57.89s
+Host is up (0.053s latency). 57.89s
+Not shown: 999 filtered tcp ports (no-response) 57.89s
+PORT    STATE SERVICE 57.89s
+445/tcp open  microsoft-ds 57.89s
+ 57.89s
+Nmap scan report for 192.168.7.249 57.89s
+Host is up (0.038s latency). 57.89s
+Not shown: 998 closed tcp ports (conn-refused) 57.89s
+PORT   STATE SERVICE 57.89s
+22/tcp open  ssh 57.89s
+80/tcp open  http 57.89s
+ 57.89s
+Nmap done: 2048 IP addresses (15 hosts up) scanned in 57.88 seconds 57.89s
