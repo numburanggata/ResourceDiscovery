@@ -1,0 +1,111 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-18 17:35 EDT 0.07s
+Nmap scan report for 192.168.3.1 42.72s
+Host is up (0.071s latency). 42.72s
+All 100 scanned ports on 192.168.3.1 are in ignored states. 42.72s
+Not shown: 100 closed tcp ports (conn-refused) 42.72s
+ 42.72s
+Nmap scan report for 192.168.3.36 42.72s
+Host is up (0.066s latency). 42.72s
+Not shown: 99 filtered tcp ports (no-response) 42.72s
+PORT    STATE SERVICE 42.72s
+445/tcp open  microsoft-ds 42.72s
+ 42.72s
+Nmap scan report for 192.168.3.200 42.72s
+Host is up (0.087s latency). 42.72s
+Not shown: 99 closed tcp ports (conn-refused) 42.72s
+PORT   STATE SERVICE 42.72s
+23/tcp open  telnet 42.72s
+ 42.72s
+Nmap scan report for 192.168.3.211 42.72s
+Host is up (0.11s latency). 42.72s
+All 100 scanned ports on 192.168.3.211 are in ignored states. 42.73s
+Not shown: 100 closed tcp ports (conn-refused) 42.73s
+ 42.73s
+Nmap scan report for 192.168.3.213 42.73s
+Host is up (0.084s latency). 42.73s
+Not shown: 91 closed tcp ports (conn-refused) 42.73s
+PORT      STATE SERVICE 42.73s
+135/tcp   open  msrpc 42.73s
+139/tcp   open  netbios-ssn 42.73s
+445/tcp   open  microsoft-ds 42.73s
+49152/tcp open  unknown 42.73s
+49153/tcp open  unknown 42.73s
+49154/tcp open  unknown 42.73s
+49155/tcp open  unknown 42.73s
+49156/tcp open  unknown 42.73s
+49157/tcp open  unknown 42.73s
+ 42.73s
+Nmap scan report for 192.168.5.1 42.73s
+Host is up (0.056s latency). 42.73s
+All 100 scanned ports on 192.168.5.1 are in ignored states. 42.73s
+Not shown: 100 closed tcp ports (conn-refused) 42.73s
+ 42.73s
+Nmap scan report for 192.168.5.2 42.73s
+Host is up (0.087s latency). 42.73s
+Not shown: 99 closed tcp ports (conn-refused) 42.73s
+PORT   STATE SERVICE 42.73s
+21/tcp open  ftp 42.73s
+ 42.73s
+Nmap scan report for 192.168.5.3 42.73s
+Host is up (0.11s latency). 42.73s
+Not shown: 99 filtered tcp ports (no-response) 42.73s
+PORT    STATE SERVICE 42.73s
+445/tcp open  microsoft-ds 42.73s
+ 42.73s
+Nmap scan report for 192.168.5.4 42.73s
+Host is up (0.086s latency). 42.73s
+All 100 scanned ports on 192.168.5.4 are in ignored states. 42.73s
+Not shown: 100 closed tcp ports (conn-refused) 42.73s
+ 42.73s
+Nmap scan report for 192.168.5.5 42.73s
+Host is up (0.078s latency). 42.73s
+Not shown: 91 closed tcp ports (conn-refused) 42.73s
+PORT      STATE SERVICE 42.73s
+135/tcp   open  msrpc 42.73s
+139/tcp   open  netbios-ssn 42.73s
+445/tcp   open  microsoft-ds 42.73s
+49152/tcp open  unknown 42.73s
+49153/tcp open  unknown 42.73s
+49154/tcp open  unknown 42.73s
+49155/tcp open  unknown 42.73s
+49156/tcp open  unknown 42.73s
+49157/tcp open  unknown 42.73s
+ 42.73s
+Nmap scan report for 192.168.7.1 42.73s
+Host is up (0.050s latency). 42.73s
+All 100 scanned ports on 192.168.7.1 are in ignored states. 42.73s
+Not shown: 100 closed tcp ports (conn-refused) 42.73s
+ 42.73s
+Nmap scan report for 192.168.7.82 42.73s
+Host is up (0.088s latency). 42.73s
+All 100 scanned ports on 192.168.7.82 are in ignored states. 42.73s
+Not shown: 100 closed tcp ports (conn-refused) 42.73s
+ 42.73s
+Nmap scan report for 192.168.7.121 42.73s
+Host is up (0.088s latency). 42.73s
+Not shown: 91 closed tcp ports (conn-refused) 42.73s
+PORT      STATE SERVICE 42.73s
+135/tcp   open  msrpc 42.73s
+139/tcp   open  netbios-ssn 42.73s
+445/tcp   open  microsoft-ds 42.73s
+49152/tcp open  unknown 42.73s
+49153/tcp open  unknown 42.73s
+49154/tcp open  unknown 42.73s
+49155/tcp open  unknown 42.73s
+49156/tcp open  unknown 42.73s
+49157/tcp open  unknown 42.73s
+ 42.73s
+Nmap scan report for 192.168.7.210 42.73s
+Host is up (0.052s latency). 42.73s
+Not shown: 99 filtered tcp ports (no-response) 42.73s
+PORT    STATE SERVICE 42.73s
+445/tcp open  microsoft-ds 42.73s
+ 42.73s
+Nmap scan report for 192.168.7.249 42.73s
+Host is up (0.078s latency). 42.73s
+Not shown: 98 closed tcp ports (conn-refused) 42.73s
+PORT   STATE SERVICE 42.73s
+22/tcp open  ssh 42.73s
+80/tcp open  http 42.73s
+ 42.73s
+Nmap done: 4096 IP addresses (15 hosts up) scanned in 42.71 seconds 42.73s

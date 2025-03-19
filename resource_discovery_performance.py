@@ -34,11 +34,12 @@ def nmap_perf():
 
     with open(stdout_filename, 'w') as file:
         #scanproc = subprocess.Popen(['sudo', 'masscan','--rate=5000','-p' + str_common_ports, target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        #scanproc = subprocess.Popen(['nmap','-n','-PS'+str_common_ports, target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #scanproc = subprocess.Popen(['nmap','-n','-F','-PS'+str_common_ports, target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         #scanproc = subprocess.Popen(['nmap','-n', target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         #scanproc = subprocess.Popen(['sudo','zmap','-G','cc:01:22:f8:00:10','-p',str_common_ports,'-q', target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         #print(str_common_ports)
-        scanproc = subprocess.Popen(['rustscan','-p',str_common_ports,'--ulimit','5000','--accessible','-a', target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #scanproc = subprocess.Popen(['rustscan','-p',str_common_ports,'--ulimit','5000','--accessible','-a', target], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        scanproc = subprocess.Popen(['python','proposed.py'], bufsize=100000, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         #for output in scanproc.stderr:
         for output in scanproc.stdout: 
             if output:
@@ -215,8 +216,8 @@ def plot():
     
 if __name__ == "__main__":
     for _ in range(20):
-        testname = 'rustscan-basic'
-        durat = 150
+        testname = 'proposed-method'
+        durat = 70
 
         date_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         filename = f"{date_str}_{testname}-th.csv"                                                           ##  NAME TOOLS HERE

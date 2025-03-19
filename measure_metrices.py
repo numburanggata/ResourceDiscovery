@@ -21,17 +21,18 @@ def read_csv(file_path):
 def check_csv_files(directory, reference_dict):
     """Reads every file with '-thout.csv' in its name and checks if its content matches reference_dict."""
     for filename in os.listdir(directory):
-        #if '-thout.csv' in filename:
-        if '-th.csv' in filename:
+        if '-thout.csv' in filename:
+        #if '-th.csv' in filename:
             file_path = os.path.join(directory, filename)
             print(filename)
             with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 content = list(csv.reader(file))
             
-            allstring = ''
-            hosts = {}
-            for x in content[3:42]:
-                print(x[-1])
+            #TH
+            # allstring = ''
+            # hosts = {}
+            # for x in content[3:42]:
+            #     print(x[-1])
 
 
             ##   NMAP
@@ -56,10 +57,7 @@ def check_csv_files(directory, reference_dict):
 
             #         key_pattern = re.compile(re.escape(key))
 
-                    
-                    
-
-                    
+            # print(allstring[-8:-2])
             #         found = 0
             #         #print(key_pattern, port_pattern)
             #         for host in hosts:
@@ -72,24 +70,33 @@ def check_csv_files(directory, reference_dict):
             #         # print(found)
             ### NMAP
 
+            # allstring = ''
+            # hosts = {}
+            # for x in content:
+            #     contentstring = ''.join(x) + '\n'
+            #     allstring = allstring + contentstring
 
-            # for key in reference_dict:
-            #     for port in reference_dict[key]:
-            #         #print(key,port)
-            #         key_pattern = re.compile(re.escape(key))
-            #         port_pattern = re.compile(re.escape(port))
+            for key in reference_dict:
+                for port in reference_dict[key]:
+                    # print(key,port)
+                    key_pattern = re.compile(re.escape(key))
+                    if port == 'none':
+                        port = 'None'
+                        port_pattern = re.compile(re.escape(' '+ port))
+                    else:
+                        port_pattern = re.compile(re.escape(' '+ port))
                     
-            #         found = 0
+                    found = 0
                     
-            #         for row in content:
-            #             rowstring = ', '.join(row)
+                    for row in content:
+                        rowstring = ', '.join(row)
 
-            #             #print(rowstrinig)
-            #             if key_pattern.search(rowstring) and port_pattern.search(rowstring):
-            #                 found = 1
-            #                 #print(row)
-            #                 break
-
+                        # print(key, port)
+                        if key_pattern.search(rowstring) and port_pattern.search(rowstring):
+                            found = 1
+                            
+                            break
+                    print(found)    
 
 
 # Example usage:
@@ -98,6 +105,7 @@ print(reference_dict)
 
 #check_csv_files('/home/kali/ResourceDiscovery/nmap-pingsyn', reference_dict)
 #check_csv_files('/home/kali/ResourceDiscovery/nmap-basic', reference_dict)
-check_csv_files('/home/kali/ResourceDiscovery/rustscan-basic', reference_dict)
+#check_csv_files('/home/kali/ResourceDiscovery/rustscan-basic', reference_dict)
 #check_csv_files('/home/kali/ResourceDiscovery/zmap-basic-100ports', reference_dict)
 #check_csv_files('/home/kali/ResourceDiscovery/masscan-basic-100ports', reference_dict)
+check_csv_files('/home/kali/ResourceDiscovery/proposed-method-fin', reference_dict)

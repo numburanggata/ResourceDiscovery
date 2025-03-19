@@ -1,0 +1,225 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-18 17:15 EDT 0.06s
+Stats: 0:00:00 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 0.12s
+Ping Scan Timing: About 0.17% done 0.12s
+Stats: 0:00:09 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 9.11s
+Ping Scan Timing: About 84.39% done; ETC: 17:15 (0:00:02 remaining) 9.11s
+Stats: 0:00:10 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 10.55s
+Ping Scan Timing: About 85.50% done; ETC: 17:15 (0:00:02 remaining) 10.55s
+Stats: 0:00:10 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 10.60s
+Ping Scan Timing: About 85.52% done; ETC: 17:15 (0:00:02 remaining) 10.60s
+Stats: 0:00:11 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 11.18s
+Ping Scan Timing: About 85.94% done; ETC: 17:15 (0:00:02 remaining) 11.18s
+Stats: 0:00:11 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 11.79s
+Ping Scan Timing: About 86.30% done; ETC: 17:15 (0:00:02 remaining) 11.79s
+Stats: 0:00:12 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 12.58s
+Ping Scan Timing: About 86.81% done; ETC: 17:15 (0:00:02 remaining) 12.58s
+Stats: 0:00:13 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 13.15s
+Ping Scan Timing: About 87.20% done; ETC: 17:15 (0:00:02 remaining) 13.15s
+Stats: 0:00:14 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 14.22s
+Ping Scan Timing: About 87.77% done; ETC: 17:15 (0:00:02 remaining) 14.24s
+Stats: 0:00:14 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 14.94s
+Ping Scan Timing: About 88.04% done; ETC: 17:15 (0:00:02 remaining) 14.94s
+Stats: 0:00:15 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 15.52s
+Ping Scan Timing: About 88.29% done; ETC: 17:15 (0:00:02 remaining) 15.52s
+Stats: 0:00:15 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 16.01s
+Ping Scan Timing: About 88.54% done; ETC: 17:15 (0:00:02 remaining) 16.01s
+Stats: 0:00:16 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 16.41s
+Ping Scan Timing: About 88.75% done; ETC: 17:15 (0:00:02 remaining) 16.41s
+Stats: 0:00:16 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 16.74s
+Ping Scan Timing: About 88.92% done; ETC: 17:15 (0:00:02 remaining) 16.74s
+Stats: 0:00:17 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 17.09s
+Ping Scan Timing: About 89.11% done; ETC: 17:15 (0:00:02 remaining) 17.09s
+Stats: 0:00:17 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 17.57s
+Ping Scan Timing: About 89.35% done; ETC: 17:15 (0:00:02 remaining) 17.57s
+Stats: 0:00:17 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 17.95s
+Ping Scan Timing: About 89.54% done; ETC: 17:15 (0:00:02 remaining) 17.95s
+Stats: 0:00:18 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 18.38s
+Ping Scan Timing: About 89.74% done; ETC: 17:15 (0:00:02 remaining) 18.38s
+Stats: 0:00:18 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 18.78s
+Ping Scan Timing: About 89.95% done; ETC: 17:15 (0:00:02 remaining) 18.78s
+Stats: 0:00:19 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 19.12s
+Ping Scan Timing: About 90.14% done; ETC: 17:15 (0:00:02 remaining) 19.12s
+Stats: 0:00:19 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 19.45s
+Ping Scan Timing: About 90.33% done; ETC: 17:15 (0:00:02 remaining) 19.45s
+Stats: 0:00:20 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 20.69s
+Ping Scan Timing: About 91.03% done; ETC: 17:15 (0:00:02 remaining) 20.69s
+Stats: 0:00:24 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 24.97s
+Ping Scan Timing: About 93.22% done; ETC: 17:15 (0:00:02 remaining) 24.97s
+Stats: 0:00:25 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 25.40s
+Ping Scan Timing: About 93.45% done; ETC: 17:15 (0:00:02 remaining) 25.40s
+Stats: 0:00:25 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 25.84s
+Ping Scan Timing: About 93.70% done; ETC: 17:15 (0:00:02 remaining) 25.84s
+Stats: 0:00:26 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 26.29s
+Ping Scan Timing: About 94.00% done; ETC: 17:15 (0:00:02 remaining) 26.29s
+Stats: 0:00:26 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 27.00s
+Ping Scan Timing: About 94.44% done; ETC: 17:15 (0:00:02 remaining) 27.00s
+Stats: 0:00:27 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 27.47s
+Ping Scan Timing: About 94.75% done; ETC: 17:15 (0:00:01 remaining) 27.47s
+Stats: 0:00:27 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 27.90s
+Ping Scan Timing: About 95.01% done; ETC: 17:15 (0:00:01 remaining) 27.90s
+Stats: 0:00:28 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 28.53s
+Ping Scan Timing: About 95.35% done; ETC: 17:15 (0:00:01 remaining) 28.53s
+Stats: 0:00:29 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 29.39s
+Ping Scan Timing: About 95.78% done; ETC: 17:15 (0:00:01 remaining) 29.39s
+Stats: 0:00:30 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 30.38s
+Ping Scan Timing: About 96.24% done; ETC: 17:16 (0:00:01 remaining) 30.39s
+Stats: 0:00:30 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 31.00s
+Ping Scan Timing: About 96.49% done; ETC: 17:16 (0:00:01 remaining) 31.00s
+Stats: 0:00:31 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 31.66s
+Ping Scan Timing: About 96.76% done; ETC: 17:16 (0:00:01 remaining) 31.66s
+Stats: 0:00:32 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 32.44s
+Ping Scan Timing: About 97.13% done; ETC: 17:16 (0:00:01 remaining) 32.44s
+Stats: 0:00:33 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 33.44s
+Ping Scan Timing: About 97.70% done; ETC: 17:16 (0:00:01 remaining) 33.44s
+Stats: 0:00:34 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 34.11s
+Ping Scan Timing: About 98.04% done; ETC: 17:16 (0:00:01 remaining) 34.11s
+Stats: 0:00:36 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 36.38s
+Ping Scan Timing: About 99.27% done; ETC: 17:16 (0:00:00 remaining) 36.38s
+Stats: 0:00:36 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 36.91s
+Ping Scan Timing: About 99.59% done; ETC: 17:16 (0:00:00 remaining) 36.91s
+Stats: 0:00:37 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 37.33s
+Ping Scan Timing: About 99.83% done; ETC: 17:16 (0:00:00 remaining) 37.34s
+Stats: 0:00:37 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan 37.93s
+Ping Scan Timing: About 100.00% done; ETC: 17:16 (0:00:00 remaining) 37.93s
+Stats: 0:00:38 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 38.40s
+Connect Scan Timing: About 1.53% done; ETC: 17:16 (0:00:00 remaining) 38.40s
+Stats: 0:00:39 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 39.24s
+Connect Scan Timing: About 6.53% done; ETC: 17:16 (0:00:14 remaining) 39.24s
+Stats: 0:00:39 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 39.66s
+Connect Scan Timing: About 9.34% done; ETC: 17:16 (0:00:19 remaining) 39.66s
+Stats: 0:00:40 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 40.09s
+Connect Scan Timing: About 11.01% done; ETC: 17:16 (0:00:16 remaining) 40.10s
+Stats: 0:00:40 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 40.54s
+Connect Scan Timing: About 12.83% done; ETC: 17:16 (0:00:14 remaining) 40.54s
+Stats: 0:00:41 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 41.10s
+Connect Scan Timing: About 15.33% done; ETC: 17:16 (0:00:17 remaining) 41.10s
+Stats: 0:00:41 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 41.79s
+Connect Scan Timing: About 19.11% done; ETC: 17:16 (0:00:17 remaining) 41.79s
+Stats: 0:00:42 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 42.25s
+Connect Scan Timing: About 21.65% done; ETC: 17:16 (0:00:14 remaining) 42.25s
+Stats: 0:00:43 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 43.23s
+Connect Scan Timing: About 27.38% done; ETC: 17:16 (0:00:13 remaining) 43.23s
+Stats: 0:00:43 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 43.64s
+Connect Scan Timing: About 29.22% done; ETC: 17:16 (0:00:12 remaining) 43.64s
+Stats: 0:00:44 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 44.19s
+Connect Scan Timing: About 31.76% done; ETC: 17:16 (0:00:13 remaining) 44.19s
+Stats: 0:00:44 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 44.60s
+Connect Scan Timing: About 33.41% done; ETC: 17:16 (0:00:12 remaining) 44.60s
+Stats: 0:00:45 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 45.75s
+Connect Scan Timing: About 38.43% done; ETC: 17:16 (0:00:13 remaining) 45.75s
+Stats: 0:00:46 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 46.17s
+Connect Scan Timing: About 40.48% done; ETC: 17:16 (0:00:12 remaining) 46.17s
+Stats: 0:00:46 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 46.60s
+Connect Scan Timing: About 42.48% done; ETC: 17:16 (0:00:11 remaining) 46.60s
+Stats: 0:00:46 elapsed; 4081 hosts completed (15 up), 15 undergoing Connect Scan 47.00s
+Connect Scan Timing: About 43.56% done; ETC: 17:16 (0:00:12 remaining) 47.00s
+Nmap scan report for 192.168.3.1 60.82s
+Host is up (0.028s latency). 60.82s
+All 1000 scanned ports on 192.168.3.1 are in ignored states. 60.82s
+Not shown: 1000 closed tcp ports (conn-refused) 60.82s
+ 60.82s
+Nmap scan report for 192.168.3.36 60.82s
+Host is up (0.052s latency). 60.82s
+Not shown: 999 filtered tcp ports (no-response) 60.83s
+PORT    STATE SERVICE 60.83s
+445/tcp open  microsoft-ds 60.83s
+ 60.83s
+Nmap scan report for 192.168.3.200 60.83s
+Host is up (0.052s latency). 60.83s
+Not shown: 999 closed tcp ports (conn-refused) 60.83s
+PORT   STATE SERVICE 60.83s
+23/tcp open  telnet 60.83s
+ 60.83s
+Nmap scan report for 192.168.3.211 60.83s
+Host is up (0.058s latency). 60.83s
+All 1000 scanned ports on 192.168.3.211 are in ignored states. 60.83s
+Not shown: 1000 closed tcp ports (conn-refused) 60.83s
+ 60.83s
+Nmap scan report for 192.168.3.213 60.83s
+Host is up (0.050s latency). 60.83s
+Not shown: 991 closed tcp ports (conn-refused) 60.83s
+PORT      STATE SERVICE 60.83s
+135/tcp   open  msrpc 60.83s
+139/tcp   open  netbios-ssn 60.83s
+445/tcp   open  microsoft-ds 60.83s
+49152/tcp open  unknown 60.83s
+49153/tcp open  unknown 60.83s
+49154/tcp open  unknown 60.83s
+49155/tcp open  unknown 60.83s
+49156/tcp open  unknown 60.83s
+49157/tcp open  unknown 60.83s
+ 60.83s
+Nmap scan report for 192.168.5.1 60.83s
+Host is up (0.028s latency). 60.83s
+All 1000 scanned ports on 192.168.5.1 are in ignored states. 60.83s
+Not shown: 1000 closed tcp ports (conn-refused) 60.83s
+ 60.83s
+Nmap scan report for 192.168.5.2 60.83s
+Host is up (0.057s latency). 60.83s
+Not shown: 999 closed tcp ports (conn-refused) 60.83s
+PORT   STATE SERVICE 60.83s
+21/tcp open  ftp 60.83s
+ 60.83s
+Nmap scan report for 192.168.5.3 60.83s
+Host is up (0.051s latency). 60.83s
+Not shown: 999 filtered tcp ports (no-response) 60.83s
+PORT    STATE SERVICE 60.83s
+445/tcp open  microsoft-ds 60.83s
+ 60.83s
+Nmap scan report for 192.168.5.4 60.83s
+Host is up (0.055s latency). 60.83s
+All 1000 scanned ports on 192.168.5.4 are in ignored states. 60.83s
+Not shown: 1000 closed tcp ports (conn-refused) 60.83s
+ 60.83s
+Nmap scan report for 192.168.5.5 60.83s
+Host is up (0.031s latency). 60.83s
+Not shown: 991 closed tcp ports (conn-refused) 60.83s
+PORT      STATE SERVICE 60.83s
+135/tcp   open  msrpc 60.83s
+139/tcp   open  netbios-ssn 60.83s
+445/tcp   open  microsoft-ds 60.83s
+49152/tcp open  unknown 60.83s
+49153/tcp open  unknown 60.83s
+49154/tcp open  unknown 60.83s
+49155/tcp open  unknown 60.83s
+49156/tcp open  unknown 60.83s
+49157/tcp open  unknown 60.83s
+ 60.83s
+Nmap scan report for 192.168.7.1 60.83s
+Host is up (0.027s latency). 60.83s
+All 1000 scanned ports on 192.168.7.1 are in ignored states. 60.83s
+Not shown: 1000 closed tcp ports (conn-refused) 60.83s
+ 60.83s
+Nmap scan report for 192.168.7.82 60.83s
+Host is up (0.037s latency). 60.83s
+All 1000 scanned ports on 192.168.7.82 are in ignored states. 60.83s
+Not shown: 1000 closed tcp ports (conn-refused) 60.83s
+ 60.83s
+Nmap scan report for 192.168.7.121 60.83s
+Host is up (0.045s latency). 60.83s
+Not shown: 991 closed tcp ports (conn-refused) 60.83s
+PORT      STATE SERVICE 60.83s
+135/tcp   open  msrpc 60.83s
+139/tcp   open  netbios-ssn 60.83s
+445/tcp   open  microsoft-ds 60.83s
+49152/tcp open  unknown 60.83s
+49153/tcp open  unknown 60.83s
+49154/tcp open  unknown 60.83s
+49155/tcp open  unknown 60.83s
+49156/tcp open  unknown 60.83s
+49157/tcp open  unknown 60.83s
+ 60.83s
+Nmap scan report for 192.168.7.210 60.83s
+Host is up (0.043s latency). 60.83s
+Not shown: 999 filtered tcp ports (no-response) 60.83s
+PORT    STATE SERVICE 60.83s
+445/tcp open  microsoft-ds 60.83s
+ 60.83s
+Nmap scan report for 192.168.7.249 60.83s
+Host is up (0.032s latency). 60.83s
+Not shown: 998 closed tcp ports (conn-refused) 60.83s
+PORT   STATE SERVICE 60.83s
+22/tcp open  ssh 60.83s
+80/tcp open  http 60.83s
+ 60.83s
+Nmap done: 4096 IP addresses (15 hosts up) scanned in 60.81 seconds 60.83s
