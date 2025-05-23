@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ZTScan
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Reikal
+    family-names: Taupaani
+    orcid: 'https://orcid.org/0009-0009-1726-7266'
+repository-code: 'https://github.com/numburanggata/ResourceDiscovery#'
+abstract: >-
+  Network scanning tool that utilizes Nmap and Masscan,
+  originally made for context assessment during ZTA
+  implementation
+keywords:
+  - Network Scanners
+  - Zero Trust Architecture
+  - Masscan
+  - Nmap
+license: Apache-2.0
+commit: Scenario Tested
+version: '1.1'
+date-released: '2025-03-27'
